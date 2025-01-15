@@ -7,7 +7,7 @@ import Mail from '../assets/IconosSvg/mail.svg'
 import Mercadopago from '../assets/IconosSvg/redes/mercado-libre.svg'
 import Banco from '../assets/IconosSvg/building-bank.svg'
 import Tarjeta from '../assets/IconosSvg/credit-card.svg'
-import Telefono from '../assets/IconosSvg/phone.svg'
+/* import Telefono from '../assets/IconosSvg/phone.svg' */
 import Pin from '../assets/IconosSvg/map-pin.svg'
 import Horario from '../assets/IconosSvg/clock.svg'
 
