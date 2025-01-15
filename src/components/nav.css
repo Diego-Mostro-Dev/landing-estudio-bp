@@ -1,0 +1,21 @@
+.navegacion {
+    display: flex;
+    justify-content: space-around;
+    align-items: flex-start;
+    flex-direction: column;
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.navegacion li {
+    list-style: none;
+}
+
+.navegacion li a {
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+    font-size: 0.8rem;
+    font-weight: 500;
+    padding: 2px;
+}

@@ -1,0 +1,17 @@
+.wrapper-header {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 20%;
+    background-color: transparent;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 2;
+
+}
+
+.wrapper-header img {
+    width: 100px;
+}
