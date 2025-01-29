@@ -1,9 +1,10 @@
 .hero {
-    background-image: url(../assets/Statics/FondoMobile.webp);
+    background-image: url(../assets/Statics/Fondos/FondoMobile.webp.webp);
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
-    height: 80vh;
+    height: 100vh;
+    width: 100%;
     padding-top: 100px;
     display: grid;
     grid-template-columns: 1fr;
@@ -28,7 +29,7 @@ p {
     margin: 0 auto;
 }
 
-.hero button {
+.hero .btn-hero {
     display: flex;
     flex-direction: row;
     align-items: center;
@@ -42,4 +43,8 @@ p {
     border-radius: 5px;
     cursor: pointer;
     font-size: large;
+}
+
+.hero span {
+    color: #a88f4c;
 }

@@ -1,0 +1,134 @@
+.wrapper-somos {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 10% 90%;
+    justify-content: center;
+    justify-items: center;
+    align-items: center;
+    background-color: #ece8db;
+    padding-left: 25px;
+}
+
+.title-somos {
+    color: #054b64;
+    margin-bottom: 1rem;
+    text-align: center;
+}
+
+.wrapper-card {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr;
+    margin: 0 0 0 1.2rem;
+    justify-items: center;
+}
+
+.container-somos {
+    display: grid;
+    grid-template-columns: auto 1fr;
+    align-items: center;
+    gap: 1rem;
+    position: relative;
+    width: 80%;
+    margin: 1rem 0;
+}
+
+.container-somos img {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    object-fit: cover;
+    border: 2px solid white;
+    position: absolute;
+    /* Posicionamiento absoluto */
+    left: -78px;
+    /* Ajuste de la posición horizontal */
+    top: 50%;
+    /* Centrado vertical respecto al contenedor */
+    transform: translateY(-50%);
+    /* Ajuste para centrar correctamente */
+    z-index: 2;
+    /* Asegurar que la imagen quede sobre la tarjeta */
+    background-color: #ece8db;
+    /* Fondo para mayor contraste */
+}
+
+.card-somos {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: auto;
+    height: auto;
+    width: 100%;
+    background-color: #f9f9f9;
+    border-radius: 10px;
+    padding: 1rem 0 0.5rem 0.5rem;
+    /* Ajuste superior para espacio bajo la imagen */
+    position: relative;
+    /* Necesario para la superposición */
+    z-index: 1;
+    /* Asegura que la tarjeta quede detrás de la imagen */
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    /* Sombra para mejor visibilidad */
+}
+
+.titulo-card-somos {
+    color: #054b64;
+    font-size: 1.2rem;
+    font-weight: bold;
+    text-align: center;
+    margin-top: 2rem;
+    /* Espacio adicional debajo de la imagen */
+}
+
+
+.wrapper-card-datos {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr;
+    margin: 1rem;
+    gap: 5px;
+    justify-items: center;
+    align-items: center;
+}
+
+.wrapper-card-datos .socio-datos .socio-datos2-abogados {
+    color: #000;
+    width: 19ch;
+    font-size: 0.9rem;
+    text-align: center;
+}
+
+
+.socio-datos-abogado {
+    margin-bottom: 20px;
+}
+
+.wrapper-card-datos p {
+    color: #000;
+    font-size: 0.8rem;
+    width: 22ch;
+    text-align: center;
+}
+
+
+
+.wrapper-card-datos .datos-especialista {
+    color: #a88f4c;
+    font-size: 0.8rem;
+    text-align: center;
+}
+
+
+.wrapper-especialidades {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.wrapper-especialidades h3 {
+    color: #054b64;
+    font-size: 0.8rem;
+    font-weight: bold;
+    text-align: center;
+}

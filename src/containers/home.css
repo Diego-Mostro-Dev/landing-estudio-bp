@@ -3,4 +3,24 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    font-family: 'Raleway', sans-serif;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+/* Para navegadores modernos */
+body {
+    overflow: hidden;
+    /* Oculta barras de desplazamiento */
+    overflow-y: scroll;
+    /* Habilita el desplazamiento vertical sin mostrar la barra */
+}
+
+::-webkit-scrollbar {
+    width: 0;
+    /* Elimina el ancho de la barra de desplazamiento */
+    height: 0;
+    /* Elimina el alto de la barra de desplazamiento horizontal */
 }

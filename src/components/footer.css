@@ -7,11 +7,10 @@
     align-items: center;
     height: 20%;
     background-color: #054b64;
-    position: fixed;
+    position: bottom;
     bottom: 0;
     left: 0;
     right: 0;
-    z-index: 2;
 }
 
 .columna-logo-redes {
@@ -222,4 +221,72 @@ WHAPPER QUE ENVUELVE ICONO E IMAGEN */
     color: white;
     font-size: 10px;
     width: 20ch;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.notification {
+    position: fixed;
+    bottom: 20px;
+    right: 0px;
+    background-color: #a88f4c;
+    color: #fff;
+
+    padding: 15px 20px;
+    border-radius: 8px;
+    margin-left: 20px;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2);
+    z-index: 1000;
+    animation: fade-in-out 5s ease-in-out;
+}
+
+
+
+@keyframes fade-in-out {
+    0% {
+        opacity: 0;
+        transform: translateY(10px);
+    }
+
+    10% {
+        opacity: 1;
+        transform: translateY(0);
+    }
+
+    90% {
+        opacity: 1;
+    }
+
+    100% {
+        opacity: 0;
+        transform: translateY(10px);
+    }
 }

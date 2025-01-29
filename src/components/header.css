@@ -1,17 +1,28 @@
 .wrapper-header {
-    display: flex;
+    display: grid;
+    grid-template-columns: 80% 20%;
+    grid-template-rows: 1fr;
     justify-content: space-around;
     align-items: center;
-    height: 20%;
-    background-color: transparent;
+    height: 15%;
+    width: 100%;
+    /* OPCION TRANSPARENTE */
+
+    /* background-color: transparent; */
+
+    /* OTRA POSIBILIDAD CON TRANSPARENCIA PARA MEJOR LEGIBILIDAD */
+
+    background: rgba(0, 0, 0, 0.3);
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+    backdrop-filter: blur(1px);
+    -webkit-backdrop-filter: blur(2px);
+
     position: fixed;
     top: 0;
-    left: 0;
-    right: 0;
-    z-index: 2;
-
+    z-index: 3;
 }
 
 .wrapper-header img {
     width: 100px;
+    padding-left: 20px;
 }
