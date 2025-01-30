@@ -2,6 +2,44 @@
     display: grid;
     grid-template-columns: 1fr;
     grid-template-rows: repeat(5, 1fr);
-    height: 50vh;
-    background-color: blue;
+    height: 100%;
+}
+
+.wrapper-donde-encontrarnos .titulo-donde-encontrarnos {
+    color: rgb(0, 0, 0);
+    text-align: center;
+    font-size: 1.5rem;
+}
+
+.datos-donde-encontrarnos {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 20px;
+    margin-left: 10px;
+}
+
+.icono-datos-donde-encontrarnos {
+    width: 10%;
+    height: auto;
+}
+
+.texto-donde-encontrarnos {
+    font-size: 1rem;
+    width: 100%;
+    margin: 10px;
+    font-weight: normal;
+}
+
+.whatsapp-link {
+    text-decoration: none;
+    color: inherit;
+    display: flex;
+    align-items: center;
+    width: 100%;
+}
+
+.whatsapp-link:hover {
+    color: inherit;
 }

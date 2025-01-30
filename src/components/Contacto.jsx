@@ -6,9 +6,9 @@ import DondeEncontrarnos from './DondeEncontrarnos'
 export default function Contacto() {
     return (
         <>
-            <section className="wrapper-contacto">
+            <section id="contactanos" className="wrapper-contacto">
                 <div className="titulo-contacto">
-                    <h2>Nuestro medio de contacto</h2>
+                    <h2>Nuestro medio de <span>contacto</span></h2>
                 </div>
                 <h3 className="subtitulo-contacto">
                     Lorem ipsum, dolor sit amet consectetur adipisicing elit.

@@ -38,10 +38,10 @@ export default function SobreNosotros() {
                     </div>
                 </section>
                 <section className="btn-nosotros">
-                    <button>
+                    <a href="#contactanos" className="btn-nosotros">
                         <img src={Mail} alt="" />
                         Contactanos
-                    </button>
+                    </a>
                 </section>
             </div>
         </>

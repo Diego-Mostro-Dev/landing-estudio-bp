@@ -1,7 +1,7 @@
 .wrapper-nosotros {
     display: grid;
     grid-template-columns: 1fr;
-    grid-template-rows: repeat(2, 1fr) 0.4fr;
+    grid-template-rows: 15% 1fr 0.4fr;
     justify-content: center;
     align-items: center;
     justify-items: center;
@@ -123,11 +123,12 @@
     height: fit-content;
 }
 
-.btn-nosotros button {
+.btn-nosotros a {
     display: flex;
     flex-direction: row;
     align-items: center;
     justify-content: center;
+    text-decoration: none;
     padding: 10px 30px;
     background-color: #054b64;
     color: white;
@@ -137,4 +138,5 @@
     border-radius: 5px;
     cursor: pointer;
     font-size: large;
+    gap: 10px;
 }

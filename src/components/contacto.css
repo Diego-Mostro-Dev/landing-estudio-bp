@@ -1,4 +1,37 @@
 .wrapper-contacto {
     min-height: 100vh;
-    background-color: red;
+}
+
+.titulo-contacto {
+    background-image: url(../assets/Statics/Fondos/bannerSomos.webp.webp);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 20vh;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    color: white;
+    margin-top: 20px;
+}
+
+.titulo-contacto h2 {
+    width: 12ch;
+    text-align: center;
+    font-size: 2.5rem;
+}
+
+.titulo-contacto span {
+    color: #a88f4c;
+}
+
+.subtitulo-contacto {
+    text-align: center;
+    margin: 15px;
+    color: #787878;
+    font-size: 1rem;
+    width: 30ch;
 }

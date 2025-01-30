@@ -12,10 +12,10 @@ export default function Hero() {
                 <p className="texto-hero">
                     Lorem ipsum dolor sit amet consectetur adipisicing elit.
                 </p>
-                <button className='btn-hero'>
+                <a href="#contactanos" className='btn-hero'>
                     <img src={Mail} alt="" />
                     Contactanos
-                </button>
+                </a>
             </div>
         </>
     )
