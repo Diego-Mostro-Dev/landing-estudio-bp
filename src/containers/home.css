@@ -24,3 +24,6 @@ body {
     height: 0;
     /* Elimina el alto de la barra de desplazamiento horizontal */
 }
+
+
+@media (width > 425px) {}

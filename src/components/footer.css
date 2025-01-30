@@ -2,15 +2,12 @@
 
 .wrapper-footer {
     display: grid;
-    grid-template-columns: repeat(3, 1fr);
+    grid-template-columns: repeat(2, 1fr);
     grid-template-rows: 1fr;
     align-items: center;
     height: 20%;
     background-color: #054b64;
-    position: bottom;
-    bottom: 0;
-    left: 0;
-    right: 0;
+    padding: 10px;
 }
 
 .columna-logo-redes {
@@ -44,7 +41,6 @@
 
 
 .columna-medios-pago {
-    visibility: hidden;
     display: grid;
     grid-template-columns: 1fr;
     grid-template-rows: 50% 50%;
@@ -55,9 +51,9 @@
 }
 
 .titulo-medios-pago {
-    width: 26ch;
+    width: 100%;
     text-align: center;
-    font-size: 10px;
+    font-size: 1rem;
 }
 
 .resaltado {
@@ -69,9 +65,12 @@
 /* 
 WHAPPER QUE ENVUELVE ICONO E IMAGEN */
 .wrapper-pagos {
-    display: grid;
-    grid-template-columns: 30% 30% 30%;
-    grid-template-rows: 1fr;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    width: 100%;
+
 }
 
 .titulo-pagos {
@@ -118,7 +117,7 @@ WHAPPER QUE ENVUELVE ICONO E IMAGEN */
     height: auto;
 }
 
-/* MODULO 3*/
+/* /* MODULO 3*/
 
 .columna-contacto-footer {
     display: grid;
@@ -165,94 +164,6 @@ WHAPPER QUE ENVUELVE ICONO E IMAGEN */
     margin-left: 5px;
 }
 
-/* .columna-contacto-correo {
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-    align-items: center;
-}
-
-.columna-contacto-correo img {
-    width: 9px;
-    height: auto;
-}
-
-.columna-contacto-correo h2 {
-    font-size: 5px;
-    margin-left: 5px;
-} */
-
-.columna-contacto-direccion {
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-    align-items: center;
-    gap: 5px;
-
-}
-
-.columna-contacto-direccion img {
-    width: 20px;
-    height: auto;
-}
-
-
-.titulo-contacto-correo {
-    text-decoration: none;
-    color: white;
-    font-size: 10px;
-    width: 13ch;
-}
-
-.columna-contacto-horarios {
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-    align-items: center;
-    gap: 5px;
-}
-
-.columna-contacto-horarios img {
-    width: 20px;
-    height: auto;
-}
-
-.columna-contacto-horarios h2 {
-    color: white;
-    font-size: 10px;
-    width: 20ch;
-}
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 .notification {
     position: fixed;
     bottom: 20px;
@@ -288,5 +199,23 @@ WHAPPER QUE ENVUELVE ICONO E IMAGEN */
     100% {
         opacity: 0;
         transform: translateY(10px);
+    }
+}
+
+@media (width > 425px) {
+    .wrapper-pagos {
+        justify-content: center;
+    }
+
+    .mercado-pago {
+        margin: 0 10px;
+    }
+
+    .deposito {
+        margin: 0 10px;
+    }
+
+    .efectivo {
+        margin: 0 10px;
     }
 }

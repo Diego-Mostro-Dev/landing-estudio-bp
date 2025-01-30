@@ -6,8 +6,8 @@ import Header from '../components/Header';
 import QuienesSomos from '../components/QuienesSomos';
 import Servicios from '../components/Servicios';
 import Contacto from '../components/Contacto';
-/* import Footer from '../components/Footer';
- */
+import Footer from '../components/Footer';
+
 
 
 export default function Home() {
@@ -19,7 +19,7 @@ export default function Home() {
             <QuienesSomos></QuienesSomos>
             <Servicios></Servicios>
             <Contacto></Contacto>
-            {/* <Footer></Footer> */}
+            <Footer></Footer>
         </>
     );
 }

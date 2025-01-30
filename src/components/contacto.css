@@ -35,3 +35,21 @@
     font-size: 1rem;
     width: 30ch;
 }
+
+
+
+@media (width > 425px) {
+    .subtitulo-contacto {
+        justify-self: center;
+        width: 50ch;
+    }
+
+    .wrapper-form {
+        display: grid;
+        grid-template-columns: 50% 50%;
+        grid-template-rows: 1fr;
+        justify-content: center;
+        align-items: center;
+        margin: 3rem;
+    }
+}

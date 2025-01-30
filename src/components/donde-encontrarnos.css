@@ -14,10 +14,12 @@
 .datos-donde-encontrarnos {
     display: flex;
     flex-direction: row;
-    justify-content: center;
+    justify-content: flex-start;
     align-items: center;
     margin-bottom: 20px;
     margin-left: 10px;
+    max-width: 100%;
+    margin: 0 auto;
 }
 
 .icono-datos-donde-encontrarnos {
@@ -27,7 +29,7 @@
 
 .texto-donde-encontrarnos {
     font-size: 1rem;
-    width: 100%;
+    width: 26ch;
     margin: 10px;
     font-weight: normal;
 }
@@ -38,8 +40,31 @@
     display: flex;
     align-items: center;
     width: 100%;
+    text-align: center;
 }
 
 .whatsapp-link:hover {
     color: inherit;
+}
+
+@media (width > 425px) {
+    .wrapper-donde-encontrarnos {
+        justify-content: center;
+        justify-items: center;
+        height: 50%;
+    }
+
+    .datos-donde-encontrarnos {
+        width: 60%;
+    }
+
+    .whatsapp-link {
+        width: 70%;
+        text-align: center;
+    }
+
+    .texto-donde-encontrarnos {
+        width: 40ch;
+    }
+
 }

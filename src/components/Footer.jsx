@@ -1,4 +1,4 @@
-import React, { useState } from 'react';
+import React from 'react';
 import './footer.css';
 import Logo from '../assets/Logo/Logo.png';
 import Instagram from '../assets/IconosSvg/redes/instagram.svg';
@@ -7,16 +7,8 @@ import Mail from '../assets/IconosSvg/mail.svg';
 import Mercadopago from '../assets/IconosSvg/redes/mercado-libre.svg';
 import Banco from '../assets/IconosSvg/building-bank.svg';
 import Tarjeta from '../assets/IconosSvg/credit-card.svg';
-import Pin from '../assets/IconosSvg/map-pin.svg';
-import Horario from '../assets/IconosSvg/clock.svg';
 
 export default function Footer() {
-    const [showNotification, setShowNotification] = useState(false);
-
-    const handleHorariosClick = () => {
-        setShowNotification(true);
-        setTimeout(() => setShowNotification(false), 5000); // Ocultar después de 5 segundos
-    };
 
     return (
         <>
@@ -55,33 +47,6 @@ export default function Footer() {
                         </div>
                     </div>
                 </section>
-                <section className="columna-contacto-footer">
-                    <div title="Direccion" className="columna-contacto-direccion">
-                        <img src={Pin} alt="" />
-                        <a
-                            target="_blank"
-                            rel="noreferrer"
-                            href="https://www.google.com/maps/place/Maip%C3%BA+778,+S2000+CGF,+Santa+Fe/@-32.9469334,-60.6362712,18z/data=!4m6!3m5!1s0x95b7ab1944ecc361:0x422aa9f579da3121!8m2!3d-32.9469087!4d-60.6352841!16s%2Fg%2F11c5plckk7?entry=ttu&g_ep=EgoyMDI1MDExMC4wIKXMDSoASAFQAw%3D%3D"
-                            className="direccion"
-                        >
-                            <h2 className="titulo-contacto-correo">Maipú 778 piso 2. Oficina 3. Rosario</h2>
-                        </a>
-                    </div>
-                    <div
-                        title="Horarios"
-                        className="columna-contacto-horarios"
-                        onClick={handleHorariosClick}
-                    >
-                        <img src={Horario} alt="" />
-                        <h2 className="titulo-contacto-correo">Horarios</h2>
-                    </div>
-                </section>
-                {showNotification && (
-                    <div className="notification" >
-                        <h2>Horarios</h2>
-                        <p>Nuestro horario de atención es de lunes a viernes de 9:00 a 18:00 horas.</p>
-                    </div>
-                )}
             </article>
         </>
     );

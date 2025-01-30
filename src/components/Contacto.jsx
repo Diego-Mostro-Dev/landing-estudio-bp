@@ -13,9 +13,21 @@ export default function Contacto() {
                 <h3 className="subtitulo-contacto">
                     Lorem ipsum, dolor sit amet consectetur adipisicing elit.
                 </h3>
-                <Form></Form>
-                <DondeEncontrarnos></DondeEncontrarnos>
+                <div className="wrapper-form">
+                    {window.innerWidth > 425 ? (
+                        <>
+                            <DondeEncontrarnos />
+                            <Form />
+                        </>
+                    ) : (
+                        <>
+                            <Form />
+                            <DondeEncontrarnos />
+                        </>
+                    )}
+                </div>
+
             </section>
         </>
     )
-}
+}  

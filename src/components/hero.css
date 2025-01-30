@@ -49,3 +49,14 @@ p {
 .hero span {
     color: #a88f4c;
 }
+
+@media (width > 425px) {
+    .titulo-hero {
+        width: 30ch;
+        font-size: 2rem;
+    }
+
+    .hero .btn-hero {
+        width: fit-content;
+    }
+}
