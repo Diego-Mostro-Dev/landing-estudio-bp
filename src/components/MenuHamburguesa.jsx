@@ -23,7 +23,6 @@ export default function MenuHamburguesa() {
                     <li><a href="#contactanos" onClick={toggleMenu}>Contactanos</a></li>
                 </ul>
             </nav>
-            <div onClick={toggleMenu} className={`opacidad ${isOpen ? 'is-open' : ''}`}></div>
         </section>
     );
 }

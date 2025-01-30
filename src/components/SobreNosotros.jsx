@@ -11,7 +11,7 @@ export default function SobreNosotros() {
     return (
         <>
             <div className="wrapper-nosotros">
-                <section id="nosotros" className="wrapper-sobre-nosotros">
+                <section className="wrapper-sobre-nosotros">
                     <h1 className="titulo-sobre-nosotros">Sobre <span> nosotros</span></h1>
                 </section>
                 <section className="seccion-nosotros">
@@ -43,7 +43,7 @@ export default function SobreNosotros() {
                         Contactanos
                     </a>
                 </section>
-            </div>
+            </div >
         </>
     )
 }
