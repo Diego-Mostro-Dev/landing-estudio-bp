@@ -8,7 +8,7 @@ export default function Header() {
         <>
             <div className="wrapper-header">
                 <a href="#home" className="logo-home">
-                    <img src={Logo} alt="Logo Baigorria Papalardo" />
+                    <img src={Logo} alt="Logo Baigorria Papalardo" loading='lazy' />
                 </a>
                 <MenuHamburguesa />
             </div>

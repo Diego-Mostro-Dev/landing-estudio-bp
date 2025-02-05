@@ -16,30 +16,30 @@ export default function SobreNosotros() {
                 </section>
                 <section className="seccion-nosotros">
                     <div className="imagen-nosotros">
-                        <img src={Fondo} height={'100%'} width={'100%'} alt="imagen-nosotros" />
+                        <img src={Fondo} height={'100%'} width={'100%'} alt="imagen-nosotros" loading='lazy' />
                     </div>
                     <div className="wrapper-contenido-nosotros">
                         <div className="contenido-nosotros">
-                            <img src={Idea} height={'100%'} width={'100%'} alt="" className="imagen-contenido" />
+                            <img src={Idea} height={'100%'} width={'100%'} alt="" className="imagen-contenido" loading='lazy' />
                             <h2 className="titulo-contenido">Estudio juridico dinamico, joven y proactivo</h2>
                         </div>
                         <div className="contenido-nosotros">
-                            <img src={Documento} height={'100%'} width={'100%'} alt="" className="imagen-contenido" />
+                            <img src={Documento} height={'100%'} width={'100%'} alt="" className="imagen-contenido" loading='lazy' />
                             <h2 className="titulo-contenido">Constantemente actualizado de las novedades juridicas</h2>
                         </div>
                         <div className="contenido-nosotros">
-                            <img src={Seguridad} height={'100%'} width={'100%'} alt="" className="imagen-contenido" />
+                            <img src={Seguridad} height={'100%'} width={'100%'} alt="" className="imagen-contenido" loading='lazy' />
                             <h2 className="titulo-contenido">Responsabilidad innegociable</h2>
                         </div>
                         <div className="contenido-nosotros">
-                            <img src={Escribir} height={'100%'} width={'100%'} alt="" className="imagen-contenido" />
+                            <img src={Escribir} height={'100%'} width={'100%'} alt="" className="imagen-contenido" loading='lazy' />
                             <h2 className="titulo-contenido">Solida experiencia en accidentes y enfermedades laborales</h2>
                         </div>
                     </div>
                 </section>
                 <section className="btn-nosotros">
                     <a href="#contactanos" className="btn-nosotros">
-                        <img src={Mail} alt="" />
+                        <img src={Mail} alt="" loading='lazy' />
                         Contactanos
                     </a>
                 </section>

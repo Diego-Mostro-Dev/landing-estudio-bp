@@ -12,23 +12,23 @@ export default function Servicios() {
                 </p>
                 <div className="grid-servicios">
                     <div className="servicios-externos">
-                        <img src={icono} alt="" className="servicios-imagen" />
+                        <img src={icono} alt="" className="servicios-imagen" loading='lazy' />
                         <h3 className="servicios-subtitulo">Contadora</h3>
                     </div>
                     <div className="servicios-externos">
-                        <img src={icono} alt="" className="servicios-imagen" />
+                        <img src={icono} alt="" className="servicios-imagen" loading='lazy' />
                         <h3 className="servicios-subtitulo">Escribanía</h3>
                     </div>
                     <div className="servicios-externos">
-                        <img src={icono} alt="" className="servicios-imagen" />
+                        <img src={icono} alt="" className="servicios-imagen" loading='lazy' />
                         <h3 className="servicios-subtitulo">Agente Inmobiliario</h3>
                     </div>
                     <div className="servicios-externos">
-                        <img src={icono} alt="" className="servicios-imagen" />
+                        <img src={icono} alt="" className="servicios-imagen" loading='lazy' />
                         <h3 className="servicios-subtitulo">Gestor</h3>
                     </div>
                     <div className="servicios-externos">
-                        <img src={icono} alt="" className="servicios-imagen" />
+                        <img src={icono} alt="" className="servicios-imagen" loading='lazy' />
                         <h3 className="servicios-subtitulo">Médico Legista</h3>
                     </div>
                 </div>

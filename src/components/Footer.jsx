@@ -17,13 +17,13 @@ export default function Footer() {
                     <img src={Logo} alt="" />
                     <div className="wrapper-iconos-redes">
                         <a href="https://www.instagram.com/estudiojuridico.b.p/" target="_blank" rel="noreferrer">
-                            <img src={Instagram} alt="" />
+                            <img src={Instagram} alt="" loading='lazy' />
                         </a>
                         <a href="https://www.facebook.com/estudiobaigorriapapalardo" target="_blank" rel="noreferrer">
-                            <img src={Facebook} alt="" />
+                            <img src={Facebook} alt="" loading='lazy' />
                         </a>
                         <a className="correo-estudio" href="mailto:estudiobaigorria" target="_blank" rel="noreferrer">
-                            <img src={Mail} alt="" />
+                            <img src={Mail} alt="" loading='lazy' />
                         </a>
                     </div>
                 </section>
@@ -34,15 +34,15 @@ export default function Footer() {
 
                     <div className="wrapper-pagos">
                         <div className="mercado-pago" title="Mercado Pago">
-                            <img src={Mercadopago} alt="" width={50} height={50} />
+                            <img src={Mercadopago} alt="" width={50} height={50} loading='lazy' />
                             <h2 className="titulo-pagos">Mercado Pago</h2>
                         </div>
                         <div className="deposito" title="Depósito o Transferencia Bancaria">
-                            <img src={Banco} alt="" width={50} height={50} />
+                            <img src={Banco} alt="" width={50} height={50} loading='lazy' />
                             <h2 className="titulo-pagos">Depósito o Transferencia Bancaria</h2>
                         </div>
                         <div className="efectivo" title="Efectivo o Tarjeta de Crédito">
-                            <img src={Tarjeta} alt="" width={50} height={50} />
+                            <img src={Tarjeta} alt="" width={50} height={50} loading='lazy' />
                             <h2 className="titulo-pagos">Efectivo o Tarjeta de Crédito</h2>
                         </div>
                     </div>

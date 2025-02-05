@@ -10,7 +10,7 @@ export default function QuienesSomos() {
                 <h1 className="title-somos">¿Quiénes somos?</h1>
                 <div className="wrapper-card">
                     <div className="container-somos">
-                        <img className="foto-card-somos-joaquin" src={Joaquin} alt="Foto Dr. Joaquin Baigorria" title='Dr. Joaquin Baigorria' />
+                        <img className="foto-card-somos-joaquin" loading='lazy' src={Joaquin} alt="Foto Dr. Joaquin Baigorria" title='Dr. Joaquin Baigorria' />
                         <div className="card-somos">
                             <h2 className="titulo-card-somos">Dr. Joaquin Baigorria</h2>
                             <div className="wrapper-card-datos">
@@ -30,7 +30,7 @@ export default function QuienesSomos() {
                         </div>
                     </div>
                     <div className="container-somos">
-                        <img className="foto-card-somos-daniel" src={Daniel} alt="Foto Dr. Daniel Papalardo" title='Dr. Daniel Papalardo' />
+                        <img className="foto-card-somos-daniel" loading='lazy' src={Daniel} alt="Foto Dr. Daniel Papalardo" title='Dr. Daniel Papalardo' />
                         <div className="card-somos">
                             <h2 className="titulo-card-somos">Dr. Daniel Papalardo</h2>
                             <div className="wrapper-card-datos">
