@@ -6,17 +6,13 @@
     align-items: center;
     height: 15%;
     width: 100%;
-    /* OPCION TRANSPARENTE */
-
-    /* background-color: transparent; */
-
-    /* OTRA POSIBILIDAD CON TRANSPARENCIA PARA MEJOR LEGIBILIDAD */
-
+    /* EJEMPLO CON FONDO TRANSPARENTE GRIS */
     background: rgba(0, 0, 0, 0.3);
     box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
     backdrop-filter: blur(1px);
     -webkit-backdrop-filter: blur(2px);
-
+    /* EJEMPLO CON TRANSPARENTE */
+    /* background-color: transparent; */
     position: fixed;
     top: 0;
     z-index: 3;
@@ -25,4 +21,12 @@
 .wrapper-header img {
     width: 120px;
     padding-left: 20px;
+}
+
+/* Estilos para pantallas grandes */
+@media (min-width: 426px) {
+    .wrapper-header {
+        grid-template-columns: 1fr 2fr;
+        grid-template-rows: 1fr;
+    }
 }

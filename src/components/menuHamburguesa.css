@@ -1,4 +1,3 @@
-/* Estilos del botón */
 .btn-menu {
     display: flex;
     flex-direction: column;
@@ -9,13 +8,9 @@
     gap: 6px;
     cursor: pointer;
     z-index: 12;
-    /* Más alto que el menú */
     position: fixed;
-    /* Para que se quede visible */
     top: 20px;
-    /* Ajusta la posición superior */
     right: 20px;
-    /* Ajusta la posición a la derecha */
 }
 
 .btn-menu div {

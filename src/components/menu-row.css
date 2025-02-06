@@ -1,0 +1,36 @@
+.menu-row {
+    height: auto;
+    width: 100%;
+}
+
+.menu-row ul {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    height: 100%;
+    width: 100%;
+    gap: 10px;
+    padding: 0;
+    margin: 0;
+}
+
+.menu-row li {
+    text-decoration: none;
+    list-style: none;
+    color: white;
+    background-color: transparent;
+    padding: 10px;
+}
+
+.menu-row a {
+    color: white;
+    text-decoration: none;
+    font-size: 25px;
+}
+
+.menu-row li:hover {
+    background-color: #054b64;
+    padding: 10px;
+    border-radius: 10px;
+}
